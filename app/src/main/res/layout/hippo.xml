@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"  android:background="@color/HEX_FFFFFFFF" android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:id="@+id/hippo">
+   <ScrollView android:fillViewport="true" android:layout_height="match_parent" android:layout_width="match_parent">
+      <android.support.percent.PercentRelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_height="wrap_content" android:layout_width="match_parent">
+         <com.company.myapp.elements.HippoActivity.DSWebView1 android:background="@color/HEX_D8D8D8FF" android:focusableInTouchMode="true" android:focusable="true" android:layout_marginTop="0dp" android:layout_marginStart="1dp" android:layout_height="566dp" android:layout_width="358dp" android:id="@+id/webview1"/>
+      </android.support.percent.PercentRelativeLayout>
+   </ScrollView>
+</LinearLayout>
